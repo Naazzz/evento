@@ -1,0 +1,262 @@
+.home{
+	background-image: url(../image/cover.jpg);
+	height: 850px;
+	width: 100%;
+}
+.share{
+	height: 80px;
+	float:right;
+	line-height: 80px;
+	margin-right: 50px;
+	color:white;
+	word-spacing: 20px;
+	font-size: 20px;
+}
+.navigation{
+	height: 90px;
+}
+.logo{
+	width: 300px;
+	background-color:#16728f;
+	opacity: 0.7;
+	float:left;
+	height: 90px;
+	position: absolute;
+	margin-left: -40px;
+}
+.logo img{
+	position: relative;
+	top:-35px;
+}
+.navbar{
+	width: 800px;
+	background-color:#16728f;
+	opacity: 0.7;
+	float:right;
+	height: 90px;
+	margin-right: -20px;
+}
+.navbar ul{
+	height: 90px;
+	color:#fff;
+	list-style-type: none;
+	line-height: 90px;
+	font-family: Yanone Kaffeesatz,sans-serif;
+	word-spacing: 15px;
+	font-size: 17px;
+
+}
+.navbar ul li{
+	display:inline;	 
+}
+.register{
+	width: 480px;
+	height: 190px;
+	background-color: #000000;
+	opacity: 0.8;
+	color:#fff;
+	position: relative;
+	top:330px;
+	left:0;
+	font-family: Yanone Kaffeesatz,sans-serif;
+	padding: 10px 60px 35px;
+}
+.explore{
+    background-image: url(../image/event-bg.jpg);
+	height: 350px;
+	width: 100%;
+	/*position: absolute;*/
+}
+.explore img{
+	padding-top: 10px;
+}
+.nextevent{
+	height: 350px;
+	width: 300px;
+	position: relative;
+	top:-330px;
+	left:360px;
+}
+.nextevent h3{
+	line-height: 350px;
+	color: #fff;
+	font-size: 25px;
+}
+
+.clock{
+	height: 350px;
+	width: 440px;
+	background-color: transparent;
+	position: relative;
+	top:-670px;
+	left:750px;
+	clear:both;
+	overflow: hidden;
+}
+#count{
+	display: inline;
+    overflow: hidden;
+    text-align: center;
+    padding: 0;
+    list-style-type: none;
+}
+
+#count li {
+	display: inline-block;
+	padding-top: 130px;
+	padding-right: 30px;
+	color:#fff;
+	font-size: 15px;
+	font-family: Yanone Kaffeesatz,sans-serif;
+}
+
+#count li span {
+	display:block;
+	width: 70px;
+	height: 70px;
+	border-radius: 10px;
+	line-height: 70px;
+	font-size:40px;
+	border: 1px solid black;
+
+}
+.days{
+	background-color:#45b29d;
+}
+.hours{
+	background-color:#efc94c;
+}
+.minutes{
+	background-color:#e27a3f;
+}
+.seconds{
+	background-color:#df5a49;
+}
+.event{
+    background-image: url(../image/performar-bg.jpg);
+	height: 520px;
+	width: 100%;
+	overflow: hidden;
+}
+.event h2{
+	color:#fff;
+}
+.eventpicture img{
+width: 100%;
+}
+.eventpicture h4,h5{
+color:#fff;
+}
+
+.about{
+    background-image: url(../image/about-bg.jpg);
+	height: 450px;
+	width: 100%;
+	overflow: hidden;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.about img{
+	margin-left: -150px;
+}
+.about h2, p{
+color:#fff;
+
+}
+.twitter{
+    background-image: url(../image/twitter-bg.jpg);
+	height: 400px;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 30px;
+
+}
+.twitter div div:nth-child(1) img{
+	margin-top:-30px;
+	margin-left: -25px;
+}
+.twitter div div:nth-child(2) img{
+	border-radius: 50px;
+	border:5px solid lightgray;
+}
+
+.sponsor{
+    background-image: url(../image/sponsor-bg.jpg);
+    background-size:cover;
+	height: 435px;
+	width: 100%;
+	overflow: hidden;
+}
+.sponsor h2{
+	margin-top: 80px;
+	margin-left: 80px;
+	color: #fff;
+}
+.sponsor div img{
+	width: 100%;
+	margin-top:60px;
+	margin-left: 80px;
+}
+.map{
+	background-image: url(../image/11.jpg);
+    background-size:cover;
+	width: 100%;
+	height: 400px;
+}
+.contact{
+	background-image: url(../image/contact-bg.jpg);
+    background-size:cover;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+.contact h3, p{
+	color:#373737;
+}
+.textcontact{
+	padding-top: 50px;
+}
+.textcontact input{
+	display: block;
+	margin: 20px 0px;
+	color:grey;
+	width: 100%;
+	font-size: 18px;
+}
+.con1 {
+	padding: 10px 5px;
+}
+.con2 {
+	padding-top: 10px;
+	padding-bottom: 50px;
+	padding-left: 5px;
+}
+.footer{
+	background-image: url(../image/footer-bg.jpg);
+    background-size:cover;
+	height: 170px;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	padding: 30px 0px;
+	color:white;
+	margin:0px;
+}
+.footer p{
+	font-size: 20px;
+}
+.footer span{
+	color:gold;
+}
+
+.textcontact .btn-primary {
+    background-color: #373737;
+    color: #f7ab24;
+    border: none;
+    font-size: 24px;
+    padding: 6px 42px;
+    margin-bottom: 110px;
+    margin-top: 10px;
+}
